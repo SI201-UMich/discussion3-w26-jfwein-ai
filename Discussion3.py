@@ -19,7 +19,8 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def __area_calculator__():
+    def area_calculator(self):
+        return float(self.width * self.height)
 
     # Create the "__eq__" method
     # 
