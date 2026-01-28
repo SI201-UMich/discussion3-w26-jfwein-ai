@@ -28,8 +28,10 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def __eq__():
-    
+    def __eq__(self, other):
+        if self.height == other.height and self.width == other.width:
+            return True
+        return False
 
 
 def main():
@@ -49,7 +51,7 @@ def main():
 
     # you can create additional rectangle objects to 
     # test your code or learn more about how the class behaves
-    pass
+    
 
 if __name__ == "__main__":
     main()
