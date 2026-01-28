@@ -12,8 +12,8 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-    def __str__():
-    
+    def __str__(self):
+        return f"A rectangle with width {self.width} and height {self.height}"
 
     # Create the "area_calculator" method
 
