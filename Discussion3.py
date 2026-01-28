@@ -5,19 +5,21 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
     # Create the "__str__" method
 
     # YOUR CODE HERE
 
-
+    def __str__():
+    
 
     # Create the "area_calculator" method
 
     # YOUR CODE HERE
 
-
+    def __area_calculator__():
 
     # Create the "__eq__" method
     # 
@@ -25,7 +27,7 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-
+    def __eq__():
     
 
 
